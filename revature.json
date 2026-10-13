@@ -1,0 +1,20 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/FilterRecordsTest.java",
+      "testCases": [
+        {
+          "methodName": "problem1GetAllSmiths",
+          "label": "Verify filtering employees with last name 'Smith'",
+          "description": "Runs problem1(), which should return all users whose last name is Smith. Compares the returned list against the expected list containing Alexa Smith and Brandon Smith."
+        },
+        {
+          "methodName": "problem2SalaryGreaterThan",
+          "label": "Verify filtering employees with high salaries",
+          "description": "Runs problem2(), which should return all users with a salary greater than a specified threshold. Confirms the returned list matches Steve Jones and Brandon Smith."
+        }
+      ]
+    }
+  ]
+}
